@@ -29,7 +29,7 @@ export default function SearchBar () {
                 <input
                 onChange={handleChange}
                 onSubmit={handleSubmit}
-                class="search__input" type="text" placeholder="Realice su búsqueda"/>
+                class="search__input" type="text" placeholder="Realice su búsqueda..."/>
             </div>
 
         </form>
