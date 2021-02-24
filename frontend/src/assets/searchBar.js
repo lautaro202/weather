@@ -23,13 +23,13 @@ export default function SearchBar () {
         onSubmit={(e) => 
         handleSubmit(e)} 
         className='searchBar'>
-            <div class="search__container">
-                <p class="search__title">
+            <div className="search__container">
+                <p className="search__title">
                 </p>
                 <input
                 onChange={handleChange}
                 onSubmit={handleSubmit}
-                class="search__input" type="text" placeholder="Realice su búsqueda..."/>
+                className="search__input" type="text" placeholder="Realice su búsqueda..."/>
             </div>
 
         </form>
